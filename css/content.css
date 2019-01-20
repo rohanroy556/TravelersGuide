@@ -1,0 +1,37 @@
+body{
+	background-color: #eee;
+}
+.content{
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+}
+.content img {
+	width: 100%;
+	margin: 0px;
+	border: 1px solid #666;
+	border-radius: 2px;
+	padding: 2px;
+}
+.content hr {
+	margin: 10px auto;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.contactForm {
+	text-align: center;
+}
+.contactInput {
+	height:20px;
+	padding:5px;
+	width:500px;
+}
+.contactArea {
+	padding:5px;
+	width:500px;
+	resize: none;
+}
+#submit {
+	font-size: 15px;
+}

@@ -1,0 +1,18 @@
+.faq {
+	border: 1px solid #777;
+	padding: 0px;
+}
+.questions{
+	text-decoration: none;
+	color: #111;
+	font-size: 20px;
+	padding: 0px 20px;
+}
+.answers {
+	color: #333;
+	font-size: 17px;
+	padding: 0px 20px;
+}
+.faq:hover {
+	border: 1px solid #000;
+}

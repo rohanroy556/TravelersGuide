@@ -1,0 +1,61 @@
+body {
+    background-size: cover;
+    background-position: center; 
+	background-repeat:no-repeat;
+	background-color: #eee;
+	background-image: url(../../../img/slides/Agra.jpg);
+	animation: imageSlide 15s linear 0s infinite alternate;
+}
+@keyframes imageSlide {
+    0%   {background-image: url(../../../img/slides/Agra.jpg);}
+    25%  {background-image: url(../../../img/slides/Gateway.jpg);}
+    50%  {background-image: url(../../../img/slides/Gurudongmar.jpg);}
+	75%  {background-image: url(../../../img/slides/Kerala.jpg);}
+    100% {background-image: url(../../../img/slides/Shankaracharya.jpg);}
+}
+.form{
+	padding:50px;
+	margin: 70px auto;
+	width: 425px;
+	border: solid 1px;
+	border-radius:4px;
+	opacity: 0.7;
+	background-color:#ccc;
+	font-size:20px;
+	font-weight:bold;
+	color: #333;
+	position: relative;
+}
+.header{
+	padding:10px;
+	background-color:#666;
+	border:hidden;
+	border-radius:4px;
+	text-align:center;
+	color:white;
+}
+.profileInput{
+	height:30px;
+	padding:5px;
+	width:415px;
+	font-size: 20px;
+	text-align:center;
+}
+#change,#save,#cancel{
+	border: 1px solid #333;
+	border-radius:4px;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 100px;
+	padding: 10px;
+	text-decoration: none;
+	background: linear-gradient(#fff,#aaa);
+	color: black;
+	transition: 1s ease;
+}
+#change:hover,#save:hover,#cancel:hover{
+	color:white;
+	background: linear-gradient(#aaa,#333);
+}
